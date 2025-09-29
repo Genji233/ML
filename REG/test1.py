@@ -1,6 +1,6 @@
 import numpy as np
 import pylab as plt
-%matplotlib inline
+
 data=np.loadtxt('REG\olympic.txt',delimiter=',')
 print(data)
 print('ok')
@@ -9,4 +9,4 @@ t=data[:,1]
 plt.scatter(x,t)
 plt.xlabel('Year')
 plt.ylabel('Time(seconds)')
-plt.show
+plt.show()
